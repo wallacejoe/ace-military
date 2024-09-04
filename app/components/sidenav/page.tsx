@@ -1,6 +1,6 @@
 import Link from "next/link";
   
-export default function Sidenav() {
+const Sidenav = () => {
     return (
       <ul className="text-center min-w-16 w-1/12 bg-gray-500 text-white border-black">
         <li className="flex flex-col box-border border-black border">
@@ -9,3 +9,5 @@ export default function Sidenav() {
       </ul>
     );
   }
+
+export default Sidenav
