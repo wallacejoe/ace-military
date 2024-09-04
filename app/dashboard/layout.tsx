@@ -7,6 +7,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <div>{children}</div>
     </div>
   );
-}
+};
 
-export default Layout
+export default Layout;
