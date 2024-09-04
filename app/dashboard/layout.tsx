@@ -13,6 +13,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Footer />
     </div>
   );
-}
+};
 
-export default Layout
+export default Layout;
