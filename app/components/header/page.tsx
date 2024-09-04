@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Header() {
+const Header = () => {
   return (
     <div className="p-10 flex items-center justify-evenly w-full bg-green-800 text-white border-black border-b-2">
       <div>
@@ -16,3 +16,5 @@ export default function Header() {
     </div>
   );
 }
+
+export default Header
