@@ -7,6 +7,9 @@ const Sidenav = () => {
         <Link className="p-5 hover:bg-gray-600" href="/dashboard">
           Home
         </Link>
+        <Link className="p-5 hover:bg-gray-600" href="/dashboard/personnel">
+          Personnel
+        </Link>
       </li>
     </ul>
   );
