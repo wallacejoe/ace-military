@@ -4,7 +4,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="p-10 flex items-center justify-evenly mt-10 w-full bg-green-800 text-white border-black border-t-2">
+    <div className="p-10 flex items-center justify-evenly w-full bg-green-800 text-white border-black border-t-2">
       <div className="text-center">
         <p>
           &copy; {getCurrentYear()}

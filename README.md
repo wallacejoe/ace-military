@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Overview
 
-## Getting Started
+This app tracks the weapons and personnel of a small military organization. It has a built-in messaging system and allows commanders to view personnel under their command. Allows users to view their own service record.
 
-First, run the development server:
+I wanted to create a basic web app that would allow me to practice with database integration, user profiles, dynamic React pages, and levels of security and authorization.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To start the development server, run the command "npm run dev" and navigate to this link: http://localhost:3000/dashboard
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Software Demo Video](http://youtube.link.goes.here)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Web Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The Home page should be relatively empty for the time being. It serves primarily as a menu for other pages. Transitions between pages are accomplished with the built-in React Link component.
 
-## Learn More
+The Directory page allows the user to interact with the personnel table within the database. Incorporates basic SQL to search and display filtered results.
 
-To learn more about Next.js, take a look at the following resources:
+The Arsenal page allows the user to interact with the various arsenal tables of the database. Incorporates basic SQL to search and display filtered results.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Development Environment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js
+- React
+- Tailwind
+- Lint
 
-## Deploy on Vercel
+- Javascript
+- CSS
+- HTML
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Useful Websites
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next/React Tutorial](https://nextjs.org/learn/react-foundations)
+- [Tailwind Cheatsheet](https://nerdcave.com/tailwind-cheat-sheet)
+
+# Future Work
+
+- User profiles & login
+- System security
+- Various pages for different categories
+- Messaging system & inbox
