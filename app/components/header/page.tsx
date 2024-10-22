@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="p-10 flex items-center justify-evenly mb-10 w-full bg-green-800 text-white border-black border-b-2">
+    <div className="p-10 flex items-center justify-evenly w-full bg-green-800 text-white border-black border-b-2">
       <div>
         <Link href="/dashboard">Logo</Link>
       </div>
