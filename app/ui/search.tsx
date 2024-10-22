@@ -2,6 +2,7 @@
 
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import { useDebouncedCallback } from "use-debounce";
+import "@/app/dashboard/personnel/page";
 
 const Search = ({ placeholder }: { placeholder: string }) => {
   const searchParams = useSearchParams();
