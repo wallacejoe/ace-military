@@ -1,10 +1,11 @@
 import { sql } from '@vercel/postgres';
-import {unstable_noStore as no_store} from 'next/cache';
+import { unstable_noStore as no_store } from 'next/cache';
 
 const fetchFilteredPersonnel = async (query) => {
     no_store();
     try {
-        const data = await sql `SELECT *
+        const data = await sql
+        `SELECT *
         FROM personnel
         WHERE
             first_name LIKE ${`%${query}%`} OR

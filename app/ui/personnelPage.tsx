@@ -1,10 +1,8 @@
 import React from "react";
 import fetchFilteredPersonnel from "@/app/lib/data";
-import { personnel as studData } from "@/app/lib/placeholder-data";
 
 export default async function PersonnelPage({ query }: { query: string }) {
   const personnel = await fetchFilteredPersonnel(query);
-  //const personnel = studData;
 
   return (
     <div>

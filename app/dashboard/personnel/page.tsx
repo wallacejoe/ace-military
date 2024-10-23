@@ -13,8 +13,6 @@ export default async function Page({
     query?: string;
   };
 }) {
-  const query = searchParams?.query || "";
-
   return (
     <main>
       <div className="flex flex-col items-center gap-5 my-20">
@@ -22,7 +20,7 @@ export default async function Page({
           <Search placeholder="Search Products..." />
         </div>
         <div className="w-3/6">
-          <PersonnelPage query={query} />
+          <PersonnelPage query={searchParams?.query || ""} />
         </div>
       </div>
     </main>
