@@ -6,7 +6,7 @@ I wanted to create a basic web app that would allow me to practice with database
 
 To start the development server, run the command "npm run dev" and navigate to this link: http://localhost:3000/dashboard
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=Hq26v906omA)
 
 # Web Pages
 
